@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "vue.h": "c",
+    "modele.h": "c",
+    "stdio.h": "c",
+    "*.env": "c"
+  }
+}
