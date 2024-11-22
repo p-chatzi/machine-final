@@ -35,7 +35,7 @@ Ca m'as servis pour avoir une idee de ce qu'il vas me falloir.
 Ainsi des axes d'ameliorations.
 
 V2
-C'est le zip dans le repo github.
+https://github.com/p-chatzi/machine-a-cafe
 Je l'ai trouver un peu ambigu et brouillon.
 
 V3
