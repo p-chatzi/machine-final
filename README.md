@@ -42,6 +42,15 @@ V3
 C'est celle-ci, la finale - Voici mon plan de la machine:
 ![Fonctionnement_de_la_machine](gfx/fonctionnement_machine.jpg)
 
+## Hash
+
+Le mdp est hash avec une fonction que j'ai faite.
+Elle est base sur ce qu'on as vu en cours, meme si legerement different.
+Ensuite sauvegarder dans un fichier txt.
+En ouvrant le fichier en voit donc que le hash et pas le mdp en clair.
+Parreil dans le code il n'y as pas de mdp en clair. 
+![mdp_hash](gfx/mdp_hash.jpg)
+
 ## De quoi est capable la machine
 
 Fonctions de base:
