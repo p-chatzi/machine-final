@@ -1,5 +1,5 @@
 #Variables
-FLAGS := -Wall -Werror
+FLAGS := -Wall -Werror -O0
 
 default: run
 
@@ -8,9 +8,14 @@ setup:
 
 clean:
 	rm -rf out
+	rm -rf build
 
 build: setup
 	gcc $(FLAGS) src/*.c -o out/chess
 
-run: build
+debug: 
+	mkdir -p build/Debug
+	gcc $(FLAGS) src/*.c -o build/Debug/outDebug
+
+run: debug build 
 	./out/chess

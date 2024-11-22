@@ -1,6 +1,6 @@
 #include "modele.h"
 
-const pieces_s pieces_map[] = {
+const pieces_s  pieces_map[NB_TYPE_PIECES] = {
     {"2euros", DEUX_EUROS},
     {"1euro", UN_EURO},
     {"50centimes", CINQUANTE_CENTIMES},
@@ -8,7 +8,7 @@ const pieces_s pieces_map[] = {
     {"10centimes", DIX_CENTIMES},
     {"5centimes", CINQUE_CENTIMES}};
 
-const boissons_s boissons_map[] = {
+const boissons_s boissons_map[NB_TYPE_BOISSONS] = {
     {"cappucino", CAPPUCINO, 80},
     {"expresso", EXPRESSO, 70},
     {"chocolat", CHOCOLAT, 120},

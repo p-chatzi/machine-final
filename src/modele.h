@@ -1,6 +1,7 @@
 #ifndef MODEL_H
 #define MODEL_H
 
+#define MAX_INPUT 32
 typedef enum valeure_pieces {
     DEUX_EUROS = 200,
     UN_EURO = 100,
@@ -9,7 +10,7 @@ typedef enum valeure_pieces {
     DIX_CENTIMES = 10,
     CINQUE_CENTIMES = 5,
 
-    NB_TYPE_PIECES = 5
+    NB_TYPE_PIECES = 6
 } valeure_e;
 
 typedef enum categorie_pieces {
@@ -36,13 +37,26 @@ typedef enum commandes {
     AFFICHAGE_PIECES,
     AFFICHAGE_BOISSONS,
     AIDE_ADMIN,
+    CHANGE_MDP,
     FINIR,
+
+    NB_CMDS,
     CHANGE_MODE = 444
 } commandes_e;
 
+typedef enum status_vente {
+    VENTE_VALIDE,
+    VENTE_INVALIDE
+} status_vente_e;
+
+typedef enum operation {
+    ADDITION = 1,
+    SOUSTRACTION = -1
+} operation_e;
+
 typedef struct pieces {
     char* nom;
-    valeure_e id;
+    valeure_e id; // renommer en val?
     int quantite;
 } pieces_s;
 
