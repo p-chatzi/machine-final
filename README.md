@@ -40,7 +40,7 @@ Je l'ai trouver un peu ambigu et brouillon.
 
 V3
 C'est celle-ci, la finale - Voici mon plan de la machine:
-![Fonctionnement_de_la_machine](gfx/fonctionnement_machine.jpg)\
+![Fonctionnement_de_la_machine](gfx/fonctionnement_machine.jpg)
 
 ## De quoi est capable la machine
 
